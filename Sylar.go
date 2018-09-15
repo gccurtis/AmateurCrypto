@@ -1,15 +1,15 @@
-package main
+package Sylar
 
 import(
-"fmt"
+/*"fmt"
 "os"
 "log"
-"time"
+"time"*/
 )
 
 func main(){
 	
-        start := time.Now()
+        /*start := time.Now()
 	//var inp []byte = []byte{ 34,68,146, 19, 246, 243, 0, 0, 0, 0,0,00,0,0,0,0,0,0 }
 	var inp []byte = []byte("0bmvhkjbkfhcgvbn .kjhbcvyukj,mbfyhgcvbhgnbvjhbn;kbxrytughulkbcvhjb gdrtl[pdpbdfznfzdflk'gbtoij;VEjeigjm ofnbnv oiefnucj qb87of4yr3h9g72bv wrr3h9 gu5h4h 0g578q--q[ aghrkmb 402ut8ay 02[4q3 yu[[5 u[u9um 9h iob[[h]try[8tihogfnboihgns[hbfn [a43uat9rihojnhflnklbrmr ;ALHRGOIINZGagh98uy57t84g[ ]q90yihgnb 4ntmgtboirjyg[4089yh5trxxxxxxxxsfdgkfcdfgv uygjhnlyugkh")
 	//var hash_out []byte = Hash(inp)
@@ -27,7 +27,7 @@ func main(){
   	*/
 }
 
-func HashFile(filename,out string){
+/*func HashFile(filename,out string){
 	var internal_state []byte = []byte{ 79, 71, 103, 204, 48, 252, 209, 213, 80, 54, 109, 139, 48, 238, 204, 247, 21, 132, 236, 167, 168, 25, 130, 115, 29, 70, 131, 69, 18, 182, 165, 170 }
 	var i int
 	var err error
@@ -57,7 +57,7 @@ func handle(e error){
 		fmt.Println(e)
 		os.Exit(1)
 	}
-}
+}*/
 
 func Hash(inp []byte)([]byte){
 	var internal_state []byte = []byte{ 79, 71, 103, 204, 48, 252, 209, 213, 80, 54, 109, 139, 48, 238, 204, 247, 21, 132, 236, 167, 168, 25, 130, 115, 29, 70, 131, 69, 18, 182, 165, 170 }
